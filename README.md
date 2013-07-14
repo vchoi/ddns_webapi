@@ -18,4 +18,6 @@ Installation
 Pretty straightforward. Create a project, download the app, enable the app
 and the django admin app.
 
-
+License
+This software is licensed under the GNU AGPL version 3 which is available
+at https://www.gnu.org/licenses/agpl-3.0.html.
