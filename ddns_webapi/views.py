@@ -1,7 +1,6 @@
 # Create your views here.
 
 from django.http import HttpResponse, HttpResponseForbidden
-from django.views.defaults import permission_denied
 from ddns_webapi.models import ResourceRecord, WebapiKey, NsupdateKey
 import ddns_webapi.util
 from exceptions import Exception

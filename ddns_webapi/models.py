@@ -63,7 +63,7 @@ class ResourceRecord(models.Model):
 	ttl = models.IntegerField(default=60)
 	rr_class = models.CharField(max_length=2, choices=RR_CLASS, default='IN')
 	type = models.CharField(max_length=4, choices=RR_TYPES, default='A')
-	data = models.CharField(max_length=65535, blank=True)
+	data = models.CharField(max_length=4096, blank=True)
 	
 	webapi_key = models.OneToOneField(WebapiKey)
 	nsupdate_key = models.ForeignKey(NsupdateKey)
